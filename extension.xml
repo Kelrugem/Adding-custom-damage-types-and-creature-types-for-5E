@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.0" >
+
+	<properties>
+		<name>Custom Damage Types</name>
+		<version>1</version>
+		<loadorder>99</loadorder>
+		<description>
+			<text>Custom dmgtypes</text>
+			<website></website>
+			<author>Kelrugem</author>
+		</description>
+		<ruleset>
+      <name>5E</name>
+		</ruleset>
+	</properties>
+
+    <announcement text="Extension for making custom damage types because Kelrugem procrastinates." font="emotefont" />
+	<base>		
+    <script name="DataCommon2" file="scripts/data_common2.lua" />
+	<!-- <script name="ActionDamage" file="scripts/manager_action_damage.lua" /> -->
+    </base>
+    
+</root>
